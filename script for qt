@@ -1,0 +1,7 @@
+
+local args = {
+    [1] = "I have so delicious atss for Fasty",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
